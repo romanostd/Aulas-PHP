@@ -1,3 +1,8 @@
+<?php
+    $_marca = "fiat";
+    $_modelo = "uno";
+?>
+
 <!doctype html>
 <html>
     <head>
@@ -6,6 +11,6 @@
     </head>
 
     <body>        
-        
+        <?php echo $_marca . " " .$_modelo ?>
     </body>
 </html>
