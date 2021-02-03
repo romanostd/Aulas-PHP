@@ -1,0 +1,21 @@
+body { font-family:Arial; font-size:12px; }
+label { display:block; margin-bottom:5px }
+input { display:block }
+
+input[type="text"] {
+    border:1px solid #ccc;
+    padding:10px;
+    margin-bottom:20px;
+    outline:none;
+    width:200px;
+}
+
+input[type="submit"] {
+    background:#F00;
+    color:#FFF;
+    font-family:arial;
+    font-size:11px;
+    border:2px solid #bc2424;
+    padding:10px 15px;
+    cursor:pointer;
+}
